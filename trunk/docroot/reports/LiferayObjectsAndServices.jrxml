@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="LiferayObjectsAndServices" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ca1416d7-52cb-4bb2-89c4-4584687d78cc">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:/Users/HP/Externe Klassen/Java/liferay-plugins-sdk-6.1.1/portlets/LiferayServiceBuilderAndObjectsJasperTutorial-portlet/docroot/reports/"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="lockout" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[lockout]]></fieldDescription>
+	</field>
+	<field name="graceLoginCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[graceLoginCount]]></fieldDescription>
+	</field>
+	<field name="primaryKey" class="java.lang.Long">
+		<fieldDescription><![CDATA[primaryKey]]></fieldDescription>
+	</field>
+	<field name="passwordEncrypted" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[passwordEncrypted]]></fieldDescription>
+	</field>
+	<field name="jobTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[jobTitle]]></fieldDescription>
+	</field>
+	<field name="lastFailedLoginDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lastFailedLoginDate]]></fieldDescription>
+	</field>
+	<field name="facebookId" class="java.lang.Long">
+		<fieldDescription><![CDATA[facebookId]]></fieldDescription>
+	</field>
+	<field name="greeting" class="java.lang.String">
+		<fieldDescription><![CDATA[greeting]]></fieldDescription>
+	</field>
+	<field name="password" class="java.lang.String">
+		<fieldDescription><![CDATA[password]]></fieldDescription>
+	</field>
+	<field name="new" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[new]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.Integer">
+		<fieldDescription><![CDATA[status]]></fieldDescription>
+	</field>
+	<field name="userId" class="java.lang.Long">
+		<fieldDescription><![CDATA[userId]]></fieldDescription>
+	</field>
+	<field name="defaultUser" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[defaultUser]]></fieldDescription>
+	</field>
+	<field name="digest" class="java.lang.String">
+		<fieldDescription><![CDATA[digest]]></fieldDescription>
+	</field>
+	<field name="loginDate" class="java.util.Date">
+		<fieldDescription><![CDATA[loginDate]]></fieldDescription>
+	</field>
+	<field name="companyId" class="java.lang.Long">
+		<fieldDescription><![CDATA[companyId]]></fieldDescription>
+	</field>
+	<field name="contactId" class="java.lang.Long">
+		<fieldDescription><![CDATA[contactId]]></fieldDescription>
+	</field>
+	<field name="timeZoneId" class="java.lang.String">
+		<fieldDescription><![CDATA[timeZoneId]]></fieldDescription>
+	</field>
+	<field name="reminderQueryQuestion" class="java.lang.String">
+		<fieldDescription><![CDATA[reminderQueryQuestion]]></fieldDescription>
+	</field>
+	<field name="lockoutDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lockoutDate]]></fieldDescription>
+	</field>
+	<field name="createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[createDate]]></fieldDescription>
+	</field>
+	<field name="passwordModifiedDate" class="java.util.Date">
+		<fieldDescription><![CDATA[passwordModifiedDate]]></fieldDescription>
+	</field>
+	<field name="failedLoginAttempts" class="java.lang.Integer">
+		<fieldDescription><![CDATA[failedLoginAttempts]]></fieldDescription>
+	</field>
+	<field name="uuid" class="java.lang.String">
+		<fieldDescription><![CDATA[uuid]]></fieldDescription>
+	</field>
+	<field name="middleName" class="java.lang.String">
+		<fieldDescription><![CDATA[middleName]]></fieldDescription>
+	</field>
+	<field name="primaryKeyObj" class="java.io.Serializable">
+		<fieldDescription><![CDATA[primaryKeyObj]]></fieldDescription>
+	</field>
+	<field name="modifiedDate" class="java.util.Date">
+		<fieldDescription><![CDATA[modifiedDate]]></fieldDescription>
+	</field>
+	<field name="lastName" class="java.lang.String">
+		<fieldDescription><![CDATA[lastName]]></fieldDescription>
+	</field>
+	<field name="emailAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[emailAddress]]></fieldDescription>
+	</field>
+	<field name="cachedModel" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cachedModel]]></fieldDescription>
+	</field>
+	<field name="portraitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[portraitId]]></fieldDescription>
+	</field>
+	<field name="loginIP" class="java.lang.String">
+		<fieldDescription><![CDATA[loginIP]]></fieldDescription>
+	</field>
+	<field name="passwordReset" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[passwordReset]]></fieldDescription>
+	</field>
+	<field name="lastLoginDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lastLoginDate]]></fieldDescription>
+	</field>
+	<field name="emailAddressVerified" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[emailAddressVerified]]></fieldDescription>
+	</field>
+	<field name="comments" class="java.lang.String">
+		<fieldDescription><![CDATA[comments]]></fieldDescription>
+	</field>
+	<field name="escapedModel" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[escapedModel]]></fieldDescription>
+	</field>
+	<field name="reminderQueryAnswer" class="java.lang.String">
+		<fieldDescription><![CDATA[reminderQueryAnswer]]></fieldDescription>
+	</field>
+	<field name="languageId" class="java.lang.String">
+		<fieldDescription><![CDATA[languageId]]></fieldDescription>
+	</field>
+	<field name="lastLoginIP" class="java.lang.String">
+		<fieldDescription><![CDATA[lastLoginIP]]></fieldDescription>
+	</field>
+	<field name="userUuid" class="java.lang.String">
+		<fieldDescription><![CDATA[userUuid]]></fieldDescription>
+	</field>
+	<field name="openId" class="java.lang.String">
+		<fieldDescription><![CDATA[openId]]></fieldDescription>
+	</field>
+	<field name="firstName" class="java.lang.String">
+		<fieldDescription><![CDATA[firstName]]></fieldDescription>
+	</field>
+	<field name="screenName" class="java.lang.String">
+		<fieldDescription><![CDATA[screenName]]></fieldDescription>
+	</field>
+	<field name="agreedToTermsOfUse" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[agreedToTermsOfUse]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d97fd8d2-0730-4200-acde-9f4fb3f07805" x="0" y="17" width="315" height="35"/>
+				<textElement>
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[Users and Roles]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="66" splitType="Stretch">
+			<textField>
+				<reportElement uuid="6dd52b26-f0e7-4f52-9f40-68507620b08e" x="0" y="0" width="555" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{lastName} + "," + $F{firstName}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement uuid="51845a44-76c0-488f-a595-00de73d126d7" x="0" y="20" width="555" height="46"/>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource     (com.liferay.portal.service.RoleLocalServiceUtil.getUserRoles($F{userId}))]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "LiferayObjectsAndServices_roles.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
